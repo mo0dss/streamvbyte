@@ -1,0 +1,7 @@
+option('warnings_errors', type : 'boolean', value : false,  description : 'Treat warnings as errors.')
+option('warnings_emit',   type : 'boolean', value : false,  description : 'Emit all warnings during compilation.')
+
+option('sanitize',           type : 'boolean', value : false, description: 'Sanitize addresses')
+option('sanitize_undefined', type : 'boolean', value : false, description: 'Sanitize undefined behavior')
+
+option('enable_examples', type : 'boolean', value : false, description: 'Enable examples for streamvbyte')
